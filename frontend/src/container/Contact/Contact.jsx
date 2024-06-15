@@ -39,7 +39,7 @@ const Contact = () => {
   };
 
   const handleResumeRedirect = () => {
-    window.open("https://drive.google.com/file/d/1x5k4m70uRN0OV-bhegC3JjEFCBMsGGSs/view?usp=sharing", "_blank");
+    window.open("https://drive.google.com/file/d/1qZ9shiQXk6i5gV1oBNvGj1ux7L0Bjx0T/view?usp=sharing", "_blank");
   };
 
   return (
