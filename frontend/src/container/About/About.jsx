@@ -26,9 +26,21 @@ const About = () => {
   if (loading) return <div>Loading...</div>;
   if (error) return <div>Error: {error.message}</div>;
 
+  const handleResumeRedirect = () => {
+    window.open("https://drive.google.com/file/d/1qZ9shiQXk6i5gV1oBNvGj1ux7L0Bjx0T/view?usp=sharing", "_blank");
+  };
+
   return (
     <>
       <h2 className="head-text">I Know that <span>Good Development</span> <br />means <span>Good Business</span></h2>
+      <span><button
+            type="button"
+            className="portfolio-button"
+            onClick={handleResumeRedirect}
+          >
+            View Resume
+          </button></span>
+
       <div className="app__profiles">
         {abouts.map((about, index) => (
           <motion.div
