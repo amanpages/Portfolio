@@ -108,13 +108,13 @@ const Contact = () => {
           >
             {loading ? "Sending..." : "Send Message"}
           </button>
-{/*           <button
+          <button
             type="button"
             className="portfolio-button"
             onClick={handleResumeRedirect}
           >
             View Resume
-          </button> */}
+          </button>
         </div>
       ) : (
         <div>
