@@ -38,10 +38,6 @@ const Contact = () => {
     });
   };
 
-  const handleResumeRedirect = () => {
-    window.open("https://drive.google.com/file/d/1qZ9shiQXk6i5gV1oBNvGj1ux7L0Bjx0T/view?usp=sharing", "_blank");
-  };
-
   return (
     <>
       <h2 className="head-text">
@@ -107,13 +103,6 @@ const Contact = () => {
             onClick={handleSubmit}
           >
             {loading ? "Sending..." : "Send Message"}
-          </button>
-          <button
-            type="button"
-            className="portfolio-button"
-            onClick={handleResumeRedirect}
-          >
-            View Resume
           </button>
         </div>
       ) : (
